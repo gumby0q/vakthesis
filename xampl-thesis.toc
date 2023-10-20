@@ -1,0 +1,21 @@
+\babel@toc {ukrainian}{}
+\contentsline {chapter}{Вступ}{3}%
+\contentsline {paragraph}{Актуальність теми}{3}%
+\contentsline {paragraph}{Зв'язок роботи з науковими програмами, планами, темами}{3}%
+\contentsline {paragraph}{Мета і завдання дослідження}{3}%
+\contentsline {subparagraph}{Методи дослідження}{3}%
+\contentsline {paragraph}{Наукова новизна одержаних результатів}{3}%
+\contentsline {paragraph}{Практичне значення одержаних результатів}{4}%
+\contentsline {paragraph}{Особистий внесок здобувача}{4}%
+\contentsline {paragraph}{Апробація результатів дисертації}{4}%
+\contentsline {paragraph}{Публікації}{4}%
+\contentsline {paragraph}{Зміст роботи}{4}%
+\contentsline {paragraph}{Подяка}{6}%
+\contentsline {chapter}{\numberline {{\cyrillictext \CYRR \cyro \cyrz \cyrd \cyrii \cyrl }\nobreakspace 1}Подання дійсних чисел рядами~Остроградського $1$-го виду}{7}%
+\contentsline {section}{\numberline {1.1}Означення ряду Остроградського $1$-го виду}{7}%
+\contentsline {section}{\numberline {1.2}Означення та властивості підхідних чисел}{8}%
+\contentsline {section}{\numberline {1.3}Розклад числа у знакозмінний ряд за $1$-м алгоритмом Остроградського}{9}%
+\contentsline {section}{\numberline {1.4}Множина неповних сум ряду Остроградського та розподіли ймовірностей на ній}{11}%
+\contentsline {subsection}{\numberline {1.4.1}Тополого-метричні та фрактальні властивості множини неповних сум ряду Остроградського}{11}%
+\contentsline {section}{Висновки до розділу~\ref {ch:o1series}}{12}%
+\contentsline {chapter}{Висновки}{13}%
