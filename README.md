@@ -1,6 +1,28 @@
-README
+# vakthesis
+
 vakthesis, набір класів і пакетів LaTeX, 2021/07/21 v0.09
 In Ukrainian. See the end of the file for English summary.
+
+
+
+#### build
+
+```sh 
+pdflatex mon2017dev
+bibtex8 --csfile utf8 --big mon2017dev
+mov mon2017dev.bbl mon2017dev1.bbl
+pdflatex mon2017dev
+bibtex8 --csfile utf8 --big mon2017dev
+mov mon2017dev.bbl mon2017dev2.bbl
+pdflatex mon2017dev
+pdflatex mon2017dev
+```
+
+
+
+
+
+
 
 
 КОРОТКИЙ ОПИС

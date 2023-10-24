@@ -1,12 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.20)  20 OCT 2023 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.20)  24 OCT 2023 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**xampl-thesis.tex
-(./xampl-thesis.tex
+**mon2017dev
+(./mon2017dev.tex
 LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (./vakthesis.cls
-Document Class: vakthesis 2021/07/21 v0.09 VAKU thesis document class (OMB)
+L3 programming layer <2020-02-14> (./mon2017dev.cls
+Document Class: mon2017dev 2021/07/21 v0.09 vakthesis support document class (O
+MB)
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
@@ -19,6 +20,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count167
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
+(./vakthesis.cls
+Document Class: vakthesis 2021/07/21 v0.09 VAKU thesis document class (OMB)
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
@@ -50,6 +53,24 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \c@needbibset=\count177
 \c@currbibset=\count178
 )
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count179
+\decimalpart=\count180
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 
@@ -265,8 +286,8 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/02/14 3.40 The Babel package
@@ -274,18 +295,23 @@ Package: babel 2020/02/14 3.40 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2020/02/14 3.40 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count179
+\babel@savecnt=\count181
 \U@D=\dimen135
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count180
+\bbl@dirlevel=\count182
 )
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@british = using hyphenrules for english
 (babel)             (\language0) on input line 82.
 Package babel Info: \l@UKenglish = using hyphenrules for english
@@ -296,11 +322,6 @@ Package babel Info: \l@australian = using hyphenrules for english
 (babel)             (\language0) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for english
 (babel)             (\language0) on input line 108.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
-Language: russian 2017/08/12 1.3j Russian support for the Babel system
-Package babel Info: Making " an active character on input line 120.
-Package babel Info: Default for \cyrdash is provided on input line 157.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-ukrainian/ukraineb.ldf
 Language: ukraineb 2018/04/11 1.4c Ukrainian support for the Babel system
@@ -318,7 +339,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks21
 \ex@=\dimen136
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -328,13 +349,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count181
+\inf@bad=\count183
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count182
-\leftroot@=\count183
+\uproot@=\count184
+\leftroot@=\count185
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count184
-\DOTSCASE@=\count185
+\classnum@=\count186
+\DOTSCASE@=\count187
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -343,40 +364,40 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen138
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count186
-\c@MaxMatrixCols=\count187
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
 \dotsspace@=\muskip16
-\c@parentequation=\count188
-\dspbrk@lvl=\count189
-\tag@help=\toks21
-\row@=\count190
-\column@=\count191
-\maxfields@=\count192
-\andhelp@=\toks22
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks22
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks23
 \eqnshift@=\dimen139
 \alignsep@=\dimen140
 \tagshift@=\dimen141
 \tagwidth@=\dimen142
 \totwidth@=\dimen143
 \lineht@=\dimen144
-\@envbody=\toks23
+\@envbody=\toks24
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks25
-\thm@bodyfont=\toks26
-\thm@headfont=\toks27
-\thm@notefont=\toks28
-\thm@headpunct=\toks29
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
 \thm@preskip=\skip52
 \thm@postskip=\skip53
 \thm@headsep=\skip54
-\dth@everypar=\toks30
+\dth@everypar=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -397,7 +418,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen145
 \ar@mcellbox=\box47
 \extrarowheight=\dimen146
-\NC@list=\toks31
+\NC@list=\toks32
 \extratabsurround=\skip55
 \backup@length=\skip56
 \ar@cellbox=\box48
@@ -407,8 +428,8 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@old@col=\dimen149
 \TX@target=\dimen150
 \TX@delta=\dimen151
-\TX@cols=\count193
-\TX@ftn=\toks32
+\TX@cols=\count195
+\TX@ftn=\toks33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -419,9 +440,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
-\Gm@cnth=\count194
-\Gm@cntv=\count195
-\c@Gm@tempcnt=\count196
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
 \Gm@bindingoffset=\dimen152
 \Gm@wd@mp=\dimen153
 \Gm@odd@mp=\dimen154
@@ -430,67 +451,160 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 \Gm@layoutheight=\dimen157
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks33
+\Gm@dimlist=\toks34
 )
 
 Package geometry Warning: \topskip was changed from 14.0pt to 17.06459pt.
 
-\c@theorem=\count197
-\c@lemma=\count198
-\c@corollary=\count199
-\c@definition=\count266
-\c@example=\count267
-\c@remark=\count268
+\c@theorem=\count199
+\c@lemma=\count266
+\c@corollary=\count267
+\c@definition=\count268
+\c@example=\count269
+\c@remark=\count270
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count269
+\l__kernel_color_stack_int=\count271
 \l__pdf_internal_box=\box49
 )
-(./xampl-thesis.aux (./xampl-intro.aux) (./xampl-ch1.aux) (./xampl-concl.aux)
-(./xampl-bib.aux))
-\openout1 = `xampl-thesis.aux'.
+(./mon2017dev.aux (./mon2017dev-abs.aux) (./mon2017dev-intro.aux)
+(./xampl-ch1.aux) (./xampl-concl.aux) (./mon2017dev-bib.aux)
+(./mon2017dev-app1.aux))
+\openout1 = `mon2017dev.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
-! Undefined control sequence.
-\theenumii ->{\cyr \@asbuk 
-                           \c@enumii }
-l.104 \begin{document}
-                      
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.104 \begin{document}
-                      
-? 
-! Undefined control sequence.
-\theenumiv ->{\cyr \@Asbuk 
-                           \c@enumiv }
-l.104 \begin{document}
-                      
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.104 \begin{document}
-                      
-? 
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool.sty
+Package: datatool 2019/09/27 v2.32 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count272
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count273
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count274
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count275
+\FP@xia=\count276
+\FP@xib=\count277
+\FP@xfa=\count278
+\FP@xfb=\count279
+\FP@rega=\count280
+\FP@regb=\count281
+\FP@regs=\count282
+\FP@times=\count283
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count284
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks35
+\@dtl@tmpcount=\count285
+\dtl@tmplength=\skip57
+\dtl@sortresult=\count286
+\@dtl@numgrpsepcount=\count287
+\@dtl@datatype=\count288
+\dtl@codeA=\count289
+\dtl@codeB=\count290
+\@dtl@foreach@level=\count291
+)
+\dtlcolumnnum=\count292
+\dtlrownum=\count293
+\@dtl@before=\toks36
+\@dtl@after=\toks37
+\@dtl@colhead=\toks38
+\dtlcurrentrow=\toks39
+\dtlbeforerow=\toks40
+\dtlafterrow=\toks41
+\dtlforeachlevel=\count294
+\c@DTLrowi=\count295
+\c@DTLrowii=\count296
+\c@DTLrowiii=\count297
+\c@DTLrow=\count298
+\dtl@rowi=\count299
+\dtl@rowii=\count300
+\dtl@rowiii=\count301
+\@dtl@curi=\toks42
+\@dtl@previ=\toks43
+\@dtl@nexti=\toks44
+\@dtl@curii=\toks45
+\@dtl@previi=\toks46
+\@dtl@nextii=\toks47
+\@dtl@curiii=\toks48
+\@dtl@previii=\toks49
+\@dtl@nextiii=\toks50
+\@dtl@elements=\count302
+\@dtl@list=\toks51
+\@dtl@rowa=\toks52
+\@dtl@rowb=\toks53
+\@dtl@toksA=\toks54
+\@dtl@toksB=\toks55
+\@dtl@write=\write3
+\@dtl@read=\read5
+\dtl@entrycr=\count303
+\dtl@omitlines=\count304
+) (./casus.sty
+Package: casus 2004/02/20 v0.01 Casus (OMB)
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -527,124 +641,113 @@ l.104 \begin{document}
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-File: speciality.20070212N70 (vakthesis)
+\dtldb@specdb=\toks56
+\dtlkeys@specdb=\toks57
+\dtlrows@specdb=\count305
+\dtlcols@specdb=\count306
+\dtldb@specdb=\toks58
+\dtlkeys@specdb=\toks59
+\dtlrows@specdb=\count307
+\dtlcols@specdb=\count308
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./xampl-thesis.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `mon2017dev-abs.aux'.
+
+ (./mon2017dev-abs.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write3
-\openout3 = `xampl-thesis.toc'.
-
- [2
-
-]
-\openout2 = `xampl-intro.aux'.
-
-
-(./xampl-intro.tex [3
+) [2
 
 
 ]
+(./mon2017dev1.bbl [3
 
-LaTeX Warning: Citation `Bar98fasp1' on page 4 undefined on input line 119.
+])) [4
+
+] (./mon2017dev.toc)
+\tf@toc=\write4
+\openout4 = `mon2017dev.toc'.
+
+ [5
 
 
-LaTeX Warning: Citation `Bar98fasp2' on page 4 undefined on input line 119.
+]
+\openout2 = `mon2017dev-intro.aux'.
+
+ (./mon2017dev-intro.tex
+Overfull \hbox (5.086pt too wide) in paragraph at lines 7--11
+ \T2A/cmr/bx/n/14.4 Об- рун-ту-ва-н-ня ви-бо-ру те-ми до-слi-дже-н-ня.[] \T2A/c
+mr/m/n/14.4 Ви-свi-тлю-№-ться зв'язок
+ []
+
+[6
 
 
-LaTeX Warning: Citation `PrB01umc' on page 4 undefined on input line 121.
-
-[4] [5]) [6]
+]) [7]
 \openout2 = `xampl-ch1.aux'.
 
- (./xampl-ch1.tex
-{\cyrillictext \CYRR \cyro \cyrz \cyrd \cyrii \cyrl } 1.
-[7
 
-
-
-] [8] [9] [10]
-
-LaTeX Warning: Citation `Pra98' on page 11 undefined on input line 293.
-
-[11]
-
-LaTeX Warning: Citation `Rem51' on page 12 undefined on input line 318.
-
-
-LaTeX Warning: Citation `Sie11STNW' on page 12 undefined on input line 318.
-
-
-LaTeX Warning: Citation `Pie29' on page 12 undefined on input line 318.
-
-
-LaTeX Warning: Citation `VaZ75' on page 12 undefined on input line 318.
-
-
-LaTeX Warning: Citation `Sha86' on page 12 undefined on input line 318.
-
-) [12]
+No file xampl-ch1.tex.
 \openout2 = `xampl-concl.aux'.
 
- (./xampl-concl.tex [13
+No file xampl-concl.tex.
+\openout2 = `mon2017dev-bib.aux'.
+
+(./mon2017dev-bib.tex (./mon2017dev2.bbl)) [8
 
 
 
-]) [14]
-\openout2 = `xampl-bib.aux'.
 
- (./xampl-bib.tex
-No file xampl-thesis1.bbl.
-No file xampl-thesis2.bbl.
-) (./xampl-thesis.aux (./xampl-intro.aux) (./xampl-ch1.aux) (./xampl-concl.aux)
-(./xampl-bib.aux))
 
-LaTeX Warning: There were undefined references.
 
- ) 
+
+]
+\openout2 = `mon2017dev-app1.aux'.
+
+ (./mon2017dev-app1.tex
+{\cyrillictext \CYRD \cyro \cyrd \cyra \cyrt \cyro \cyrk } \CYRA .
+(./mon2017dev1.bbl) [9
+
+
+
+]) [10] (./mon2017dev.aux (./mon2017dev-abs.aux)
+(./mon2017dev-intro.aux) (./xampl-ch1.aux) (./xampl-concl.aux)
+(./mon2017dev-bib.aux) (./mon2017dev-app1.aux)) ) 
 Here is how much of TeX's memory you used:
- 4434 strings out of 482027
- 60281 string characters out of 5940011
- 312815 words of memory out of 5000000
- 19419 multiletter control sequences out of 15000+600000
- 545358 words of font info for 50 fonts, out of 8000000 for 9000
+ 7042 strings out of 482027
+ 96214 string characters out of 5940011
+ 398911 words of memory out of 5000000
+ 21931 multiletter control sequences out of 15000+600000
+ 543188 words of font info for 47 fonts, out of 8000000 for 9000
  786 hyphenation exceptions out of 8191
- 75i,15n,64p,447b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.60
-0pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0700.
-600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm100
-0.600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1
-440.600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lar
-m1200.600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
-axc1728.600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a
-/labx1440.600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t
-2a/laxc1440.600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh
--t2a/larm1440.600pk> </home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/
-lh-t2a/lacc1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on xampl-thesis.pdf (14 pages, 217614 bytes).
+ 66i,5n,69p,820b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/anatolii/.texlive2019/
+texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/anatolii/.texlive201
+9/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/anatolii/.texlive2
+019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/anatolii/.texliv
+e2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/anatolii/.texl
+ive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1440.600pk> </home/anatolii/.te
+xlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/anatolii/.
+texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lacc1440.600pk></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb>
+Output written on mon2017dev.pdf (10 pages, 155902 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 363 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

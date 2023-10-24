@@ -1,0 +1,212 @@
+PWD /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.tex
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.log
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.cls
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/vakthesis.cls
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/vakthesis.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-ukrainian/ukraineb.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-ukrainian/ukraineb.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-abs.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-abs.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-intro.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-intro.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-ch1.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-ch1.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-concl.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-concl.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-bib.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-bib.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-app1.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-app1.aux
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.aux
+INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/casus.sty
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/casus.sty
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/specsci20150406n394.uk.csv
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/specsci20150406n394.uk.csv
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/specsci20150406n394.en.csv
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/specsci20150406n394.en.csv
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/lacc1440.tfm
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/laxc1440.tfm
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/laxc1728.tfm
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-abs.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-abs.tex
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-abs.tex
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/lati1440.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.toc
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.toc
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.toc
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-intro.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-intro.tex
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-intro.tex
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-ch1.aux
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-concl.aux
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-bib.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-bib.tex
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-bib.tex
+OUTPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-app1.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-app1.tex
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-app1.tex
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-abs.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-abs.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-intro.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-intro.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-ch1.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-ch1.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-concl.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/xampl-concl.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-bib.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-bib.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-app1.aux
+INPUT /home/anatolii/Downloads/vakthesis-0 (1).09(1)/test/ua-latex-templates/vakthesis/mon2017/mon2017dev-app1.aux
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1440.600pk
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk
+INPUT /home/anatolii/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lacc1440.600pk
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb

@@ -1,0 +1,33 @@
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {english}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\contentsline {chapter}{Вступ}{6}%
+\contentsline {paragraph}{Обґрунтування вибору теми дослідження}{6}%
+\contentsline {paragraph}{Зв'язок роботи з науковими програмами, планами, темами, грантами}{6}%
+\contentsline {paragraph}{Мета і завдання дослідження}{6}%
+\contentsline {paragraph}{Методи дослідження}{6}%
+\contentsline {paragraph}{Наукова новизна отриманих результатів}{6}%
+\contentsline {paragraph}{Практичне значення отриманих результатів}{6}%
+\contentsline {paragraph}{Особистий внесок здобувача}{7}%
+\contentsline {paragraph}{{\cyrillictext \CYRA \cyrp \cyrr \cyro \cyrb \cyra \cyrc \cyrii \cyrya \ \cyrm \cyra \cyrt \cyre \cyrr \cyrii \cyra \cyrl \cyrii \cyrv \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{7}%
+\contentsline {paragraph}{Структура та обсяг дисертації}{7}%
+\contentsline {chapter}{Список використаних джерел}{8}%
+\def \@chapapp {\appendixname }
+\def \@appendix@number@width {.5em}
+\contentsline {chapter}{\numberline {{\cyrillictext \CYRD \cyro \cyrd \cyra \cyrt \cyro \cyrk }\nobreakspace \CYRA }Список публікацій здобувача за темою дисертації та~відомості~про апробацію результатів дисертації}{9}%
+\contentsline {section}{\numberline {\CYRA .1}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrp \cyru \cyrb \cyrl \cyrii \cyrk \cyra \cyrc \cyrii \cyrishrt \ \cyrz \cyrd \cyro \cyrb \cyru \cyrv \cyra \cyrch \cyra \ \cyrz \cyra \ \cyrt \cyre \cyrm \cyro \cyryu \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{9}%
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\babel@toc {ukrainian}{}
+\contentsline {section}{\numberline {\CYRA .2}{\cyrillictext \CYRV \cyrii \cyrd \cyro \cyrm \cyro \cyrs \cyrt \cyrii \ \cyrp \cyrr \cyro \ \cyra \cyrp \cyrr \cyro \cyrb \cyra \cyrc \cyrii \cyryu \ \cyrr \cyre \cyrz \cyru \cyrl \cyrsftsn \cyrt \cyra \cyrt \cyrii \cyrv \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{10}%
