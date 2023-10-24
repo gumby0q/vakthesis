@@ -4,8 +4,16 @@ vakthesis, набір класів і пакетів LaTeX, 2021/07/21 v0.09
 In Ukrainian. See the end of the file for English summary.
 
 
+#### build new approach
 
-#### build
+```sh 
+pdflatex mon2017dev
+biber mon2017dev
+pdflatex mon2017dev
+pdflatex mon2017dev
+```
+
+#### build old approach (deprecated)
 
 ```sh 
 pdflatex mon2017dev
