@@ -1,0 +1,570 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Pie29}{article}{}
+      \name{author}{1}{}{%
+        {{hash=01a1bee6bdadd4ae0cf6c7d590340c3c}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{fullhash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{bibnamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authorbibnamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authornamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authorfullhash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Amer. Math. Monthly}
+      \field{number}{10}
+      \field{title}{On an algorithm and its use in approximating roots of algebraic equations}
+      \field{volume}{36}
+      \field{year}{1929}
+      \field{pages}{523\bibrangedash 525}
+      \range{pages}{3}
+    \endentry
+    \entry{Sha86}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c7be32538217379e5b6238d8fab18312}{%
+           family={Shallit},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{fullhash}{c7be32538217379e5b6238d8fab18312}
+      \strng{bibnamehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{authorbibnamehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{authornamehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{authorfullhash}{c7be32538217379e5b6238d8fab18312}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fibonacci Quart.}
+      \field{number}{1}
+      \field{title}{Metric theory of {Pierce} expansions}
+      \field{volume}{24}
+      \field{year}{1986}
+      \field{pages}{22\bibrangedash 40}
+      \range{pages}{19}
+    \endentry
+    \entry{Sie11STNW}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e0506933808e4a515967a46763b05518}{%
+           family={Sierpiński},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {polish}%
+      }
+      \strng{namehash}{e0506933808e4a515967a46763b05518}
+      \strng{fullhash}{e0506933808e4a515967a46763b05518}
+      \strng{bibnamehash}{e0506933808e4a515967a46763b05518}
+      \strng{authorbibnamehash}{e0506933808e4a515967a46763b05518}
+      \strng{authornamehash}{e0506933808e4a515967a46763b05518}
+      \strng{authorfullhash}{e0506933808e4a515967a46763b05518}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sprawozdania z posiedzeń Towarzystwa Naukowego Warszawskiego, Wydział III}
+      \field{note}{Є франц. переклад {\selectlanguageifdefined{french} \BibEmph{Sierpiński~W.} Sur quelques algorithmes pour développer les nombres réels en séries~// Oeuvres choisies. "--- \newblock Warszawa: PWN, 1974. "--- \newblock t.~I. "--- \newblock P.~236--254.}}
+      \field{title}{O kilku algorytmach dla rozwijania liczb rzeczywistych na szeregi}
+      \field{volume}{4}
+      \field{year}{1911}
+      \field{pages}{56\bibrangedash 77}
+      \range{pages}{22}
+    \endentry
+    \entry{Bar98fasp2}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=ba804d60e722240eb5dab1152d3fd144}{%
+           family={Барановський},
+           familyi={Б\bibinitperiod},
+           given={О.\bibnamedelimi М.},
+           giveni={О\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {Ін-т математики НАН України; Нац. пед. ун-т імені М.~П.~Драгоманова}%
+      }
+      \strng{namehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{fullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{bibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorbibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authornamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorfullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \field{extraname}{1}
+      \field{sortinit}{Б}
+      \field{sortinithash}{05881de35da99e552a91b83ba64545ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Фрактальний аналіз та суміжні питання}
+      \field{number}{2}
+      \field{title}{Задання ніде не диференційовних функцій за допомогою представлення чисел рядами {Остроградського}}
+      \field{year}{1998}
+      \true{nocite}
+      \field{pages}{215\bibrangedash 221}
+      \range{pages}{7}
+    \endentry
+    \entry{Bar98fasp1}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=ba804d60e722240eb5dab1152d3fd144}{%
+           family={Барановський},
+           familyi={Б\bibinitperiod},
+           given={О.\bibnamedelimi М.},
+           giveni={О\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {Ін-т математики НАН України; Нац. пед. ун-т імені М.~П.~Драгоманова}%
+      }
+      \strng{namehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{fullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{bibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorbibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authornamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorfullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \field{extraname}{2}
+      \field{sortinit}{Б}
+      \field{sortinithash}{05881de35da99e552a91b83ba64545ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Фрактальний аналіз та суміжні питання}
+      \field{number}{1}
+      \field{title}{Ряди {Остроградського} як засіб аналітичного задання множин і випадкових величин}
+      \field{year}{1998}
+      \true{nocite}
+      \field{pages}{91\bibrangedash 102}
+      \range{pages}{12}
+    \endentry
+    \entry{VaZ75}{article}{}
+      \name{author}{2}{}{%
+        {{hash=27c36a89b46e485c6550ee2aaaeb6ec9}{%
+           family={Валеев},
+           familyi={В\bibinitperiod},
+           given={К.\bibnamedelimi Г.},
+           giveni={К\bibinitperiod\bibinitdelim Г\bibinitperiod}}}%
+        {{hash=f373035dff9eff4ef13f9ab841a8b846}{%
+           family={Злебов},
+           familyi={З\bibinitperiod},
+           given={Е.\bibnamedelimi Д.},
+           giveni={Е\bibinitperiod\bibinitdelim Д\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{03fdf1b1cc88273b479b06cc851ad8e7}
+      \strng{fullhash}{03fdf1b1cc88273b479b06cc851ad8e7}
+      \strng{bibnamehash}{03fdf1b1cc88273b479b06cc851ad8e7}
+      \strng{authorbibnamehash}{03fdf1b1cc88273b479b06cc851ad8e7}
+      \strng{authornamehash}{03fdf1b1cc88273b479b06cc851ad8e7}
+      \strng{authorfullhash}{03fdf1b1cc88273b479b06cc851ad8e7}
+      \field{sortinit}{В}
+      \field{sortinithash}{902012ffa0e35aa229c9a3d688e40f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Укр. мат. журн.}
+      \field{number}{1}
+      \field{title}{О метрической теории алгоритма {М.",В.",Остроградского}}
+      \field{volume}{27}
+      \field{year}{1975}
+      \field{pages}{64\bibrangedash 69}
+      \range{pages}{6}
+    \endentry
+    \entry{Pra98}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d6c835361ff6861fb90198b813210c7b}{%
+           family={Працьовитий},
+           familyi={П\bibinitperiod},
+           given={М.\bibnamedelimi В.},
+           giveni={М\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {Вид-во НПУ імені М.~П.~Драгоманова}%
+      }
+      \strng{namehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{fullhash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{bibnamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authorbibnamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authornamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authorfullhash}{d6c835361ff6861fb90198b813210c7b}
+      \field{sortinit}{П}
+      \field{sortinithash}{4153c4d481e6522f99d0aa03de37fd7f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{296}
+      \field{title}{Фрактальний підхід у дослідженнях сингулярних розподілів}
+      \field{year}{1998}
+    \endentry
+    \entry{PrB01umc}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d6c835361ff6861fb90198b813210c7b}{%
+           family={Працьовитий},
+           familyi={П\bibinitperiod},
+           given={М.\bibnamedelimi В.},
+           giveni={М\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=ba804d60e722240eb5dab1152d3fd144}{%
+           family={Барановський},
+           familyi={Б\bibinitperiod},
+           given={О.\bibnamedelimi М.},
+           giveni={О\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \strng{namehash}{c09959ec1b9cb6e76c19a5eee80dd415}
+      \strng{fullhash}{c09959ec1b9cb6e76c19a5eee80dd415}
+      \strng{bibnamehash}{c09959ec1b9cb6e76c19a5eee80dd415}
+      \strng{authorbibnamehash}{c09959ec1b9cb6e76c19a5eee80dd415}
+      \strng{authornamehash}{c09959ec1b9cb6e76c19a5eee80dd415}
+      \strng{authorfullhash}{c09959ec1b9cb6e76c19a5eee80dd415}
+      \field{sortinit}{П}
+      \field{sortinithash}{4153c4d481e6522f99d0aa03de37fd7f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Теорія ймовірностей і математична статистика: Український математичний конгрес, Київ, 21--23 серпня 2001~р.: Тези допов.}
+      \field{title}{Ряди {Остроградського} та їх використання для дослідження математичних об'єктів зі складною локальною будовою}
+      \field{year}{2001}
+      \true{nocite}
+      \field{pages}{26}
+      \range{pages}{1}
+    \endentry
+    \entry{Rem51}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a2bb3486382ad5440096a3588124c948}{%
+           family={Ремез},
+           familyi={Р\bibinitperiod},
+           given={Е.\bibnamedelimi Я.},
+           giveni={Е\bibinitperiod\bibinitdelim Я\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{fullhash}{a2bb3486382ad5440096a3588124c948}
+      \strng{bibnamehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{authorbibnamehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{authornamehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{authorfullhash}{a2bb3486382ad5440096a3588124c948}
+      \field{sortinit}{Р}
+      \field{sortinithash}{0259df1703d0d2c761f62621ecb6c6be}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Успехи мат. наук}
+      \field{number}{5 (45)}
+      \field{title}{О знакопеременных рядах, которые могут быть связаны с двумя алгорифмами {М.",В.",Остроградского} для приближения иррациональных чисел}
+      \field{volume}{6}
+      \field{year}{1951}
+      \field{pages}{33\bibrangedash 42}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Pie29}{article}{}
+      \name{author}{1}{}{%
+        {{hash=01a1bee6bdadd4ae0cf6c7d590340c3c}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{fullhash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{bibnamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authorbibnamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authornamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authorfullhash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Amer. Math. Monthly}
+      \field{number}{10}
+      \field{title}{On an algorithm and its use in approximating roots of algebraic equations}
+      \field{volume}{36}
+      \field{year}{1929}
+      \field{pages}{523\bibrangedash 525}
+      \range{pages}{3}
+    \endentry
+    \entry{Bar98fasp1}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=ba804d60e722240eb5dab1152d3fd144}{%
+           family={Барановський},
+           familyi={Б\bibinitperiod},
+           given={О.\bibnamedelimi М.},
+           giveni={О\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {Ін-т математики НАН України; Нац. пед. ун-т імені М.~П.~Драгоманова}%
+      }
+      \strng{namehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{fullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{bibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorbibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authornamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorfullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \field{sortinit}{Б}
+      \field{sortinithash}{05881de35da99e552a91b83ba64545ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Фрактальний аналіз та суміжні питання}
+      \field{number}{1}
+      \field{title}{Ряди {Остроградського} як засіб аналітичного задання множин і випадкових величин}
+      \field{year}{1998}
+      \field{pages}{91\bibrangedash 102}
+      \range{pages}{12}
+    \endentry
+    \entry{Pra98}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d6c835361ff6861fb90198b813210c7b}{%
+           family={Працьовитий},
+           familyi={П\bibinitperiod},
+           given={М.\bibnamedelimi В.},
+           giveni={М\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {Вид-во НПУ імені М.~П.~Драгоманова}%
+      }
+      \strng{namehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{fullhash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{bibnamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authorbibnamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authornamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authorfullhash}{d6c835361ff6861fb90198b813210c7b}
+      \field{sortinit}{П}
+      \field{sortinithash}{4153c4d481e6522f99d0aa03de37fd7f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{296}
+      \field{title}{Фрактальний підхід у дослідженнях сингулярних розподілів}
+      \field{year}{1998}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Pie29}{article}{}
+      \name{author}{1}{}{%
+        {{hash=01a1bee6bdadd4ae0cf6c7d590340c3c}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{fullhash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{bibnamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authorbibnamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authornamehash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \strng{authorfullhash}{01a1bee6bdadd4ae0cf6c7d590340c3c}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Amer. Math. Monthly}
+      \field{number}{10}
+      \field{title}{On an algorithm and its use in approximating roots of algebraic equations}
+      \field{volume}{36}
+      \field{year}{1929}
+      \field{pages}{523\bibrangedash 525}
+      \range{pages}{3}
+    \endentry
+    \entry{Sha86}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c7be32538217379e5b6238d8fab18312}{%
+           family={Shallit},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{fullhash}{c7be32538217379e5b6238d8fab18312}
+      \strng{bibnamehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{authorbibnamehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{authornamehash}{c7be32538217379e5b6238d8fab18312}
+      \strng{authorfullhash}{c7be32538217379e5b6238d8fab18312}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fibonacci Quart.}
+      \field{number}{1}
+      \field{title}{Metric theory of {Pierce} expansions}
+      \field{volume}{24}
+      \field{year}{1986}
+      \field{pages}{22\bibrangedash 40}
+      \range{pages}{19}
+    \endentry
+    \entry{Bar98fasp2}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=ba804d60e722240eb5dab1152d3fd144}{%
+           family={Барановський},
+           familyi={Б\bibinitperiod},
+           given={О.\bibnamedelimi М.},
+           giveni={О\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {Ін-т математики НАН України; Нац. пед. ун-т імені М.~П.~Драгоманова}%
+      }
+      \strng{namehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{fullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{bibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorbibnamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authornamehash}{ba804d60e722240eb5dab1152d3fd144}
+      \strng{authorfullhash}{ba804d60e722240eb5dab1152d3fd144}
+      \field{sortinit}{Б}
+      \field{sortinithash}{05881de35da99e552a91b83ba64545ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Фрактальний аналіз та суміжні питання}
+      \field{number}{2}
+      \field{title}{Задання ніде не диференційовних функцій за допомогою представлення чисел рядами {Остроградського}}
+      \field{year}{1998}
+      \field{pages}{215\bibrangedash 221}
+      \range{pages}{7}
+    \endentry
+    \entry{Pra98}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d6c835361ff6861fb90198b813210c7b}{%
+           family={Працьовитий},
+           familyi={П\bibinitperiod},
+           given={М.\bibnamedelimi В.},
+           giveni={М\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {Вид-во НПУ імені М.~П.~Драгоманова}%
+      }
+      \strng{namehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{fullhash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{bibnamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authorbibnamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authornamehash}{d6c835361ff6861fb90198b813210c7b}
+      \strng{authorfullhash}{d6c835361ff6861fb90198b813210c7b}
+      \field{sortinit}{П}
+      \field{sortinithash}{4153c4d481e6522f99d0aa03de37fd7f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{296}
+      \field{title}{Фрактальний підхід у дослідженнях сингулярних розподілів}
+      \field{year}{1998}
+    \endentry
+    \entry{Rem51}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a2bb3486382ad5440096a3588124c948}{%
+           family={Ремез},
+           familyi={Р\bibinitperiod},
+           given={Е.\bibnamedelimi Я.},
+           giveni={Е\bibinitperiod\bibinitdelim Я\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{fullhash}{a2bb3486382ad5440096a3588124c948}
+      \strng{bibnamehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{authorbibnamehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{authornamehash}{a2bb3486382ad5440096a3588124c948}
+      \strng{authorfullhash}{a2bb3486382ad5440096a3588124c948}
+      \field{sortinit}{Р}
+      \field{sortinithash}{0259df1703d0d2c761f62621ecb6c6be}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Успехи мат. наук}
+      \field{number}{5 (45)}
+      \field{title}{О знакопеременных рядах, которые могут быть связаны с двумя алгорифмами {М.",В.",Остроградского} для приближения иррациональных чисел}
+      \field{volume}{6}
+      \field{year}{1951}
+      \field{pages}{33\bibrangedash 42}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

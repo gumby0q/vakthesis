@@ -1,33 +1,54 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ukrainian}{}
 \babel@toc {ukrainian}{}
 \babel@toc {ukrainian}{}
 \babel@toc {english}{}
 \babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\contentsline {chapter}{Вступ}{6}%
-\contentsline {paragraph}{Обґрунтування вибору теми дослідження}{6}%
-\contentsline {paragraph}{Зв'язок роботи з науковими програмами, планами, темами, грантами}{6}%
-\contentsline {paragraph}{Мета і завдання дослідження}{6}%
-\contentsline {paragraph}{Методи дослідження}{6}%
-\contentsline {paragraph}{Наукова новизна отриманих результатів}{6}%
-\contentsline {paragraph}{Практичне значення отриманих результатів}{6}%
-\contentsline {paragraph}{Особистий внесок здобувача}{7}%
-\contentsline {paragraph}{{\cyrillictext \CYRA \cyrp \cyrr \cyro \cyrb \cyra \cyrc \cyrii \cyrya \ \cyrm \cyra \cyrt \cyre \cyrr \cyrii \cyra \cyrl \cyrii \cyrv \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{7}%
-\contentsline {paragraph}{Структура та обсяг дисертації}{7}%
-\contentsline {chapter}{Список використаних джерел}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Вступ}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Обґрунтування вибору теми дослідження}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Зв'язок роботи з науковими програмами, планами, темами, грантами}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Мета і завдання дослідження}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Методи дослідження}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Наукова новизна отриманих результатів}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Практичне значення отриманих результатів}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Особистий внесок здобувача}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{\cyrillictext \CYRA \cyrp \cyrr \cyro \cyrb \cyra \cyrc \cyrii \cyrya \ \cyrm \cyra \cyrt \cyre \cyrr \cyrii \cyra \cyrl \cyrii \cyrv \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Структура та обсяг дисертації}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {{\cyrillictext \CYRR \cyro \cyrz \cyrd \cyrii \cyrl }\nobreakspace 1}Подання дійсних чисел рядами~Остроградського $1$-го виду}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Означення ряду Остроградського $1$-го виду}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Означення та властивості підхідних чисел}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Розклад числа у знакозмінний ряд за $1$-м алгоритмом Остроградського}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Множина неповних сум ряду Остроградського та розподіли ймовірностей на ній}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Тополого-метричні та фрактальні властивості множини неповних сум ряду Остроградського}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Висновки до розділу~\ref {ch:o1series}}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Висновки}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список використаних джерел}{15}%
+\defcounter {refsection}{1}\relax 
+\contentsline {chapter}{Reference List for Section 1}{18}%
 \def \@chapapp {\appendixname }
 \def \@appendix@number@width {.5em}
-\contentsline {chapter}{\numberline {{\cyrillictext \CYRD \cyro \cyrd \cyra \cyrt \cyro \cyrk }\nobreakspace \CYRA }Список публікацій здобувача за темою дисертації та~відомості~про апробацію результатів дисертації}{9}%
-\contentsline {section}{\numberline {\CYRA .1}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrp \cyru \cyrb \cyrl \cyrii \cyrk \cyra \cyrc \cyrii \cyrishrt \ \cyrz \cyrd \cyro \cyrb \cyru \cyrv \cyra \cyrch \cyra \ \cyrz \cyra \ \cyrt \cyre \cyrm \cyro \cyryu \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{9}%
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\babel@toc {ukrainian}{}
-\contentsline {section}{\numberline {\CYRA .2}{\cyrillictext \CYRV \cyrii \cyrd \cyro \cyrm \cyro \cyrs \cyrt \cyrii \ \cyrp \cyrr \cyro \ \cyra \cyrp \cyrr \cyro \cyrb \cyra \cyrc \cyrii \cyryu \ \cyrr \cyre \cyrz \cyru \cyrl \cyrsftsn \cyrt \cyra \cyrt \cyrii \cyrv \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{10}%
+\defcounter {refsection}{2}\relax 
+\contentsline {chapter}{Reference List for Section 2}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {{\cyrillictext \CYRD \cyro \cyrd \cyra \cyrt \cyro \cyrk }\nobreakspace \CYRA }Список публікацій здобувача за темою дисертації та~відомості~про апробацію результатів дисертації}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRA .1}{\cyrillictext \CYRV \cyrii \cyrd \cyro \cyrm \cyro \cyrs \cyrt \cyrii \ \cyrp \cyrr \cyro \ \cyra \cyrp \cyrr \cyro \cyrb \cyra \cyrc \cyrii \cyryu \ \cyrr \cyre \cyrz \cyru \cyrl \cyrsftsn \cyrt \cyra \cyrt \cyrii \cyrv \ \cyrd \cyri \cyrs \cyre \cyrr \cyrt \cyra \cyrc \cyrii \cyryi }}{21}%

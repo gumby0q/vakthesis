@@ -50,6 +50,18 @@
 % у яких головна мова -- не ukrainian (а english чи інша).
 \usepackage[russian,english,ukrainian]{babel}
 
+
+% bibliography things -------------------------------------------------------------->>>>
+\usepackage[backend=biber, style=numeric-comp]{biblatex} % numeric-comp - vancouver style -> only that works somehow
+% Define the formatting for citation numbers
+\DeclareFieldFormat{labelnumberwidth}{{#1. }}
+% \usepackage[backend=biber, style=apa]{biblatex}
+% \usepackage[backend=biber, style=ieee]{biblatex}
+% \usepackage[backend=biber, style=mla]{biblatex}
+\addbibresource{xampl-thesis.bib}
+\addbibresource{xampl-mybib.bib}
+% bibliography things --------------------------------------------------------------<<<<
+
 % Підключення необхідних пакетів. Наприклад,
 % Пакети AMS для підтримки математики, теорем, спеціальних шрифтів
 \usepackage[intlimits]{amsmath}
@@ -267,6 +279,25 @@
 %\include{xampl-ch4}%       Розділ 4 і т. д. ще скільки потрібно розділів
 \include{xampl-concl}%      Висновки
 \include{mon2017dev-bib}%   Список використаних джерел (який включає список публікацій здобувача)
+
+\newpage
+\begin{refsection}
+  % \nocite{Bar98fasp1, Pra98, Pie29} % Include the keys of the references you want in this section
+  some text 1 \cite{Bar98fasp1}
+  some text 2 \cite{Pie29}
+  some text 3 \cite{Bar98fasp1, Pra98, Pie29}
+  \printbibliography[title={Reference List for Section 1}]
+\end{refsection}
+
+\newpage
+\begin{refsection}
+  % \nocite{Bar98fasp2, Sha86, Rem51}  % Include the keys of the references you want in this section
+  some text 10 \cite{Bar98fasp2}
+  some text 11 \cite{Sha86}
+  some text 12 \cite{Rem51, Pra98, Pie29}
+  \printbibliography[title={Reference List for Section 2}]
+\end{refsection}
+
 \appendix
 \include{mon2017dev-app1}%  Додаток 1 (список публікацій та відомості про апробацію)
 %\include{xampl-app2}%      Додаток 2 і т. д. ще скільки потрібно додатків

@@ -1,26 +1,45 @@
-This is 8-bit Big BibTeX version 0.99d
-Implementation:  C for Unix
-Release version: 3.71 (04 mar 2019)
-
-Error: cannot open CS file: utf8.csf
-The top-level auxiliary file: mon2017dev.aux
-A level-1 auxilliary file: mon2017dev-abs.aux
-A level-1 auxilliary file: mon2017dev-intro.aux
-A level-1 auxilliary file: xampl-ch1.aux
-A level-1 auxilliary file: xampl-concl.aux
-A level-1 auxilliary file: mon2017dev-bib.aux
-The style file: spmpsci.bst
-A level-1 auxilliary file: mon2017dev-app1.aux
-Reallocated glb_str_ptr (elt_size=8) to 10 items from 0.
-Reallocated global_strs (elt_size=200001) to 10 items from 0.
-Reallocated glb_str_end (elt_size=8) to 10 items from 0.
-Database file #1: xampl-thesis.bib
-Database file #2: xampl-mybib.bib
-
-Here's how much of BibTeX's memory you used:
- Cites:                 3 out of 750
- Fields:               40 out of 5000
- Hash table:         9794 out of 10000
- Strings:             624 out of 10000
- Free string pool:   5788 out of 65000
- Wizard functions:   2945 out of 3000
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'mon2017dev.blg'
+[68] biber:322> INFO - === вт жов 24, 2023, 20:31:06
+[80] Biber.pm:415> INFO - Reading 'mon2017dev.bcf'
+[143] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
+[144] Biber.pm:943> INFO - Found 3 citekeys in bib section 1
+[144] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[144] Biber.pm:943> INFO - Found 5 citekeys in bib section 2
+[144] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[166] Biber.pm:4256> INFO - Processing section 0
+[166] Utils.pm:75> INFO - Globbing data source 'xampl-thesis.bib'
+[166] Utils.pm:91> INFO - Globbed data source 'xampl-thesis.bib' to xampl-thesis.bib
+[166] Utils.pm:75> INFO - Globbing data source 'xampl-mybib.bib'
+[167] Utils.pm:91> INFO - Globbed data source 'xampl-mybib.bib' to xampl-mybib.bib
+[176] Biber.pm:4455> INFO - Looking for bibtex format file 'xampl-thesis.bib' for section 0
+[178] bibtex.pm:1653> INFO - LaTeX decoding ...
+[188] bibtex.pm:1471> INFO - Found BibTeX data source 'xampl-thesis.bib'
+[228] Biber.pm:4455> INFO - Looking for bibtex format file 'xampl-mybib.bib' for section 0
+[229] bibtex.pm:1653> INFO - LaTeX decoding ...
+[234] bibtex.pm:1471> INFO - Found BibTeX data source 'xampl-mybib.bib'
+[261] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'variable = shifted' with 'variable = non-ignorable'
+[261] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[261] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'uk-UA'
+[269] Biber.pm:4256> INFO - Processing section 1
+[269] Utils.pm:75> INFO - Globbing data source 'xampl-thesis.bib'
+[269] Utils.pm:91> INFO - Globbed data source 'xampl-thesis.bib' to xampl-thesis.bib
+[269] Utils.pm:75> INFO - Globbing data source 'xampl-mybib.bib'
+[269] Utils.pm:91> INFO - Globbed data source 'xampl-mybib.bib' to xampl-mybib.bib
+[270] Biber.pm:4455> INFO - Looking for bibtex format file 'xampl-thesis.bib' for section 1
+[279] Biber.pm:4455> INFO - Looking for bibtex format file 'xampl-mybib.bib' for section 1
+[292] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[292] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'variable = shifted' with 'variable = non-ignorable'
+[292] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'uk-UA'
+[295] Biber.pm:4256> INFO - Processing section 2
+[295] Utils.pm:75> INFO - Globbing data source 'xampl-thesis.bib'
+[295] Utils.pm:91> INFO - Globbed data source 'xampl-thesis.bib' to xampl-thesis.bib
+[295] Utils.pm:75> INFO - Globbing data source 'xampl-mybib.bib'
+[295] Utils.pm:91> INFO - Globbed data source 'xampl-mybib.bib' to xampl-mybib.bib
+[296] Biber.pm:4455> INFO - Looking for bibtex format file 'xampl-thesis.bib' for section 2
+[312] Biber.pm:4455> INFO - Looking for bibtex format file 'xampl-mybib.bib' for section 2
+[326] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[326] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'variable = shifted' with 'variable = non-ignorable'
+[326] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'uk-UA'
+[332] bbl.pm:652> INFO - Writing 'mon2017dev.bbl' with encoding 'UTF-8'
+[340] bbl.pm:755> INFO - Output to mon2017dev.bbl
