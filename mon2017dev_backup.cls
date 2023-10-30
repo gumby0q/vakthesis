@@ -1,7 +1,7 @@
 %%% mon2017dev.cls --- Оформлення дисертації згідно з вимогами МОН
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{mon2017dev}
+\ProvidesClass{mon2017dev1}
   [2021/07/21 v0.09 vakthesis support document class (OMB)]
 % Означення опцій
 \RequirePackage{xkeyval}
@@ -14,23 +14,19 @@
         \def\degreephdname{doctor of philosophy}%
       }%
       \addto\captionsukrainian{%
-        % \def\degreename{\cyrk\cyra\cyrn\cyrd\cyri\cyrd\cyra\cyrt\cyra}%
-        % \def\degreephdname{\cyrd\cyro\cyrk\cyrt\cyro\cyrr\cyra\ \cyrf\cyrii\cyrl\cyro\cyrs\cyro\cyrf\cyrii\cyryi}%
-        \def\degreename{кандидата}%
-        \def\degreephdname{доктора філософії}%
+        \def\degreename{\cyrk\cyra\cyrn\cyrd\cyri\cyrd\cyra\cyrt\cyra}%
+        \def\degreephdname{\cyrd\cyro\cyrk\cyrt\cyro\cyrr\cyra\ \cyrf\cyrii\cyrl\cyro\cyrs\cyro\cyrf\cyrii\cyryi}%
       }%
     }%
   \or
     \AtBeginDocument{%
       \addto\captionsenglish{\def\degreename{doctor}}%
-      % \addto\captionsukrainian{\def\degreename{\cyrd\cyro\cyrk\cyrt\cyro\cyrr\cyra}}%
-      \addto\captionsukrainian{\def\degreename{доктора}}%
+      \addto\captionsukrainian{\def\degreename{\cyrd\cyro\cyrk\cyrt\cyro\cyrr\cyra}}%
     }%
   \or
     \AtBeginDocument{%
       \addto\captionsenglish{\def\degreename{doctor of philosophy}}%
-      % \addto\captionsukrainian{\def\degreename{\cyrd\cyro\cyrk\cyrt\cyro\cyrr\cyra\ \cyrf\cyrii\cyrl\cyro\cyrs\cyro\cyrf\cyrii\cyryi}}%
-      \addto\captionsukrainian{\def\degreename{доктора філософії}}%
+      \addto\captionsukrainian{\def\degreename{\cyrd\cyro\cyrk\cyrt\cyro\cyrr\cyra\ \cyrf\cyrii\cyrl\cyro\cyrs\cyro\cyrf\cyrii\cyryi}}%
     }%
   \or
     \AtBeginDocument{%
@@ -61,12 +57,10 @@
   \fi
   \ifnum\nr=4\relax
     \AtBeginDocument{%
-      % \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
-      %   \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt}%
-      \def\onesupervisorname{Науковий керівник}%
-      % \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
-      %   \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt\cyri}%
-      \def\manysupervisorsname{Наукові керівники}%
+      \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
+        \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt}%
+      \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
+        \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt\cyri}%
     }%
   \fi
 }
@@ -194,9 +188,10 @@
   \StrBefore{#1}{ }[\lastname]%
   \StrBetween[1,2]{#1}{ }{ }[\firstname]%
   \StrBehind[2]{#1}{ }[\parentname]%  
-  \StrLeft{\firstname}{1}[\firstinitial]%
-  \StrLeft{\parentname}{1}[\parentinitial]%
-  \firstinitial.~\parentinitial.~\lastname%
+  % \StrLeft{\firstname}{1}[\firstinitial]%
+  % \StrLeft{\parentname}{1}[\parentinitial]%
+  % #1
+  \parentname.~\firstname.~\lastname%
 }
 % fix 2 -------------------------------------------------------------<<<
 
@@ -639,55 +634,33 @@
     \StrGobbleRight{#1}{1}\cyri\cyrh\ \cyrn\cyra\cyru\cyrk
     % \case[adjective]{G}{#1} наук% не працює тут
   }{%
-    % \IfStrEqCase{#1}{%
-    %   {\cyra\cyrr\cyrh\cyrii\cyrt\cyre\cyrk\cyrt\cyru\cyrr\cyra}% архітектура
-    %   {\StrGobbleRight{#1}{1}\cyri}% \case{G}{#1} не працює тут
-    %   {\cyrk\cyru\cyrl\cyrsftsn\cyrt\cyru\cyrr\cyro\cyrl\cyro\cyrg\cyrii\cyrya}% культурологія
-    %   {\StrGobbleRight{#1}{1}\cyryi}%
-    %   {\cyrm\cyri\cyrs\cyrt\cyre\cyrc\cyrt\cyrv\cyro\cyrz\cyrn\cyra\cyrv\cyrs\cyrt\cyrv\cyro}% мистецтвознавство
-    %   {\StrGobbleRight{#1}{1}\cyra}%
-    %   {\cyrd\cyre\cyrr\cyrzh\cyra\cyrv\cyrn\cyre\space
-    %     \cyru\cyrp\cyrr\cyra\cyrv\cyrl\cyrii\cyrn\cyrn\cyrya}% державне управління
-    %   {\cyrn\cyra\cyru\cyrk\ \cyrz\
-    %     \cyrd\cyre\cyrr\cyrzh\cyra\cyrv\cyrn\cyro\cyrg\cyro\
-    %     \cyru\cyrp\cyrr\cyra\cyrv\cyrl\cyrii\cyrn\cyrn\cyrya}%
-    %   {\cyrf\cyrii\cyrz\cyri\cyrch\cyrn\cyre\space
-    %     \cyrv\cyri\cyrh\cyro\cyrv\cyra\cyrn\cyrn\cyrya\space
-    %     \cyrii\space
-    %     \cyrs\cyrp\cyro\cyrr\cyrt}% фізичне виховання і спорт
-    %   {\cyrn\cyra\cyru\cyrk\ \cyrz\
-    %     \cyrf\cyrii\cyrz\cyri\cyrch\cyrn\cyro\cyrg\cyro\
-    %     \cyrv\cyri\cyrh\cyro\cyrv\cyra\cyrn\cyrn\cyrya\
-    %     \cyrii\
-    %     \cyrs\cyrp\cyro\cyrr\cyrt\cyru}%
-    %   {\cyrs\cyro\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyrii\space
-    %     \cyrk\cyro\cyrm\cyru\cyrn\cyrii\cyrk\cyra\cyrc\cyrii\cyryi}% соціальні комунікації
-    %   {\cyrn\cyra\cyru\cyrk\ \cyrii\cyrz\
-    %     \cyrs\cyro\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyri\cyrh\
-    %     \cyrk\cyro\cyrm\cyru\cyrn\cyrii\cyrk\cyra\cyrc\cyrii\cyrishrt}%
-    % }%
-
-      \IfStrEqCase{#1}{%
-        {архітектура}% архітектура
-        {\StrGobbleRight{#1}{1}і}% \case{G}{#1} не працює тут
-        {культурологія}% культурологія
-        {\StrGobbleRight{#1}{1}і}%
-        {мистецтвознавство}% мистецтвознавство
-        {\StrGobbleRight{#1}{1}а}%
-        {державне управління}% державне управління
-        {наук з
-          державного
-          управління}% наук з державного управління
-        {фізичне виховання і спорт}% фізичне виховання і спорт
-        {наук з
-          фізичного
-          виховання і
-          спорту}%
-        {соціальні комунікації}% соціальні комунікації
-        {наук із
-          соціальних
-          комунікацій}% наук із соціальних комунікацій
-      }%
+    \IfStrEqCase{#1}{%
+      {\cyra\cyrr\cyrh\cyrii\cyrt\cyre\cyrk\cyrt\cyru\cyrr\cyra}% архітектура
+      {\StrGobbleRight{#1}{1}\cyri}% \case{G}{#1} не працює тут
+      {\cyrk\cyru\cyrl\cyrsftsn\cyrt\cyru\cyrr\cyro\cyrl\cyro\cyrg\cyrii\cyrya}% культурологія
+      {\StrGobbleRight{#1}{1}\cyryi}%
+      {\cyrm\cyri\cyrs\cyrt\cyre\cyrc\cyrt\cyrv\cyro\cyrz\cyrn\cyra\cyrv\cyrs\cyrt\cyrv\cyro}% мистецтвознавство
+      {\StrGobbleRight{#1}{1}\cyra}%
+      {\cyrd\cyre\cyrr\cyrzh\cyra\cyrv\cyrn\cyre\space
+        \cyru\cyrp\cyrr\cyra\cyrv\cyrl\cyrii\cyrn\cyrn\cyrya}% державне управління
+      {\cyrn\cyra\cyru\cyrk\ \cyrz\
+        \cyrd\cyre\cyrr\cyrzh\cyra\cyrv\cyrn\cyro\cyrg\cyro\
+        \cyru\cyrp\cyrr\cyra\cyrv\cyrl\cyrii\cyrn\cyrn\cyrya}%
+      {\cyrf\cyrii\cyrz\cyri\cyrch\cyrn\cyre\space
+        \cyrv\cyri\cyrh\cyro\cyrv\cyra\cyrn\cyrn\cyrya\space
+        \cyrii\space
+        \cyrs\cyrp\cyro\cyrr\cyrt}% фізичне виховання і спорт
+      {\cyrn\cyra\cyru\cyrk\ \cyrz\
+        \cyrf\cyrii\cyrz\cyri\cyrch\cyrn\cyro\cyrg\cyro\
+        \cyrv\cyri\cyrh\cyro\cyrv\cyra\cyrn\cyrn\cyrya\
+        \cyrii\
+        \cyrs\cyrp\cyro\cyrr\cyrt\cyru}%
+      {\cyrs\cyro\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyrii\space
+        \cyrk\cyro\cyrm\cyru\cyrn\cyrii\cyrk\cyra\cyrc\cyrii\cyryi}% соціальні комунікації
+      {\cyrn\cyra\cyru\cyrk\ \cyrii\cyrz\
+        \cyrs\cyro\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyri\cyrh\
+        \cyrk\cyro\cyrm\cyru\cyrn\cyrii\cyrk\cyra\cyrc\cyrii\cyrishrt}%
+    }%
     [#1]%
   }%
 }
@@ -743,51 +716,44 @@
   {\bfseries\expandafter\expandafter\expandafter\emphsurname\csname @author@\languagename\endcsname \par}%
   \vspace{\stretch{2}}%
   {\raggedleft
-    % \@ifundefined{@secret}{}{%
-    %   \@secret\\
-    %   \CYRP\cyrr\cyri\cyrm.~\No~\placeholder[5mm]\\}
-    % \CYRU\CYRD\CYRK\ \@udc \par}%
     \@ifundefined{@secret}{}{%
       \@secret\\
-      Прим.~№~\placeholder[5mm]\\}
-    УДК № \@udc \par}%
+      \CYRP\cyrr\cyri\cyrm.~\No~\placeholder[5mm]\\}
+    \CYRU\CYRD\CYRK\ \@udc \par}%
   \vspace{\stretch{1}}%
-  % {\bfseries\scshape\CYRD\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyrya\par}
-  {\bfseries\scshape Дисертація\par}
+  {\bfseries\scshape\CYRD\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyrya\par}
   {\large\bfseries\scshape \csname @title@\languagename\endcsname \par}%
   \vspace{\stretch{1}}%
   \set@speciality\par
   \vspace{\stretch{1}}%
   % Подається на здобуття наукового ступеня
-  % \CYRP\cyro\cyrd\cyra\cyrie\cyrt\cyrsftsn\cyrs\cyrya\
-  % \cyrn\cyra\ \cyrz\cyrd\cyro\cyrb\cyru\cyrt\cyrt\cyrya\
-  % \cyrn\cyra\cyru\cyrk\cyro\cyrv\cyro\cyrg\cyro\
-  % \cyrs\cyrt\cyru\cyrp\cyre\cyrn\cyrya\\
-  Подається на здобуття наукового ступеня\\
+  \CYRP\cyro\cyrd\cyra\cyrie\cyrt\cyrsftsn\cyrs\cyrya\
+  \cyrn\cyra\ \cyrz\cyrd\cyro\cyrb\cyru\cyrt\cyrt\cyrya\
+  \cyrn\cyra\cyru\cyrk\cyro\cyrv\cyro\cyrg\cyro\
+  \cyrs\cyrt\cyru\cyrp\cyre\cyrn\cyrya\\
   \set@degree\par
   \end{center}
   \vspace{\stretch{2}}%
   {\small% Це не основний текст для титульного аркуша, тому зменшимо.
     % Дисертація містить результати власних досліджень.
-    % \CYRD\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyrya\
-    % \cyrm\cyrii\cyrs\cyrt\cyri\cyrt\cyrsftsn\
-    % \cyrr\cyre\cyrz\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrt\cyri\
-    % \cyrv\cyrl\cyra\cyrs\cyrn\cyri\cyrh\
-    % \cyrd\cyro\cyrs\cyrl\cyrii\cyrd\cyrzh\cyre\cyrn\cyrsftsn.
+    \CYRD\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyrya\
+    \cyrm\cyrii\cyrs\cyrt\cyri\cyrt\cyrsftsn\
+    \cyrr\cyre\cyrz\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrt\cyri\
+    \cyrv\cyrl\cyra\cyrs\cyrn\cyri\cyrh\
+    \cyrd\cyro\cyrs\cyrl\cyrii\cyrd\cyrzh\cyre\cyrn\cyrsftsn.
     % Використання ідей, результатів і текстів інших авторів мають посилання на відповідне джерело
-    % \CYRV\cyri\cyrk\cyro\cyrr\cyri\cyrs\cyrt\cyra\cyrn\cyrn\cyrya\
-    % \cyrii\cyrd\cyre\cyrishrt,
-    % \cyrr\cyre\cyrz\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrt\cyrii\cyrv\
-    % \cyrii~%
-    % \cyrt\cyre\cyrk\cyrs\cyrt\cyrii\cyrv\
-    % \cyrii\cyrn\cyrsh\cyri\cyrh\
-    % \cyra\cyrv\cyrt\cyro\cyrr\cyrii\cyrv\
-    % \cyrm\cyra\cyryu\cyrt\cyrsftsn\
-    % \cyrp\cyro\cyrs\cyri\cyrl\cyra\cyrn\cyrn\cyrya\
-    % \cyrn\cyra\
-    % \cyrv\cyrii\cyrd\cyrp\cyro\cyrv\cyrii\cyrd\cyrn\cyre\
-    % \cyrd\cyrzh\cyre\cyrr\cyre\cyrl\cyro.\par
-    Дисертація містить результати власних досліджень. Використання ідей, результатів і~текстів інших авторів мають посилання на відповідне джерело \par
+    \CYRV\cyri\cyrk\cyro\cyrr\cyri\cyrs\cyrt\cyra\cyrn\cyrn\cyrya\
+    \cyrii\cyrd\cyre\cyrishrt,
+    \cyrr\cyre\cyrz\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrt\cyrii\cyrv\
+    \cyrii~%
+    \cyrt\cyre\cyrk\cyrs\cyrt\cyrii\cyrv\
+    \cyrii\cyrn\cyrsh\cyri\cyrh\
+    \cyra\cyrv\cyrt\cyro\cyrr\cyrii\cyrv\
+    \cyrm\cyra\cyryu\cyrt\cyrsftsn\
+    \cyrp\cyro\cyrs\cyri\cyrl\cyra\cyrn\cyrn\cyrya\
+    \cyrn\cyra\
+    \cyrv\cyrii\cyrd\cyrp\cyro\cyrv\cyrii\cyrd\cyrn\cyre\
+    \cyrd\cyrzh\cyre\cyrr\cyre\cyrl\cyro.\par
     \medskip
     \raggedleft
     \ifcsname author@signature\endcsname
@@ -862,14 +828,7 @@
 \def\@abstract{%
   \emph{\csname shortauthor@@\languagename\endcsname}
   \csname @title@\languagename\endcsname.
-  % problems with that ....
-  % explanation https://tex.stackexchange.com/questions/350768/spaces-around-cyrillic-emdash-babel
-  % todo: fix wraping >>
   \cdash---
-  % ~---
-  % \textemdash
-  % \cyrdash
-  % todo: fix wraping <<
   \manuscriptname.
   \par
   \set@thesisdescription.
@@ -929,12 +888,11 @@
 \newcommand{\repeatapproval}{%
   \def\approvalname{%
     % Відомості про апробацію результатів дисертації
-    % {\cyr\CYRV\cyrii\cyrd\cyro\cyrm\cyro\cyrs\cyrt\cyrii\
-    %   \cyrp\cyrr\cyro\
-    %   \cyra\cyrp\cyrr\cyro\cyrb\cyra\cyrc\cyrii\cyryu\
-    %   \cyrr\cyre\cyrz\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrt\cyrii\cyrv\
-    %   \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi}%
-    {Відомості про апробацію результатів дисертації}%
+    {\cyr\CYRV\cyrii\cyrd\cyro\cyrm\cyro\cyrs\cyrt\cyrii\
+      \cyrp\cyrr\cyro\
+      \cyra\cyrp\cyrr\cyro\cyrb\cyra\cyrc\cyrii\cyryu\
+      \cyrr\cyre\cyrz\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrt\cyrii\cyrv\
+      \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi}%
   }%
   \renewcommand{\participation}[1]{\unskip, ##1}%
   \section{\approvalname}%
@@ -942,10 +900,9 @@
 }
 \def\approvalname{%
   % Апробація матеріалів дисертації
-  % {\cyr\CYRA\cyrp\cyrr\cyro\cyrb\cyra\cyrc\cyrii\cyrya\
-  %   \cyrm\cyra\cyrt\cyre\cyrr\cyrii\cyra\cyrl\cyrii\cyrv\
-  %   \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi}%
-    {Апробація матеріалів дисертації}%  
+  {\cyr\CYRA\cyrp\cyrr\cyro\cyrb\cyra\cyrc\cyrii\cyrya\
+    \cyrm\cyra\cyrt\cyre\cyrr\cyrii\cyra\cyrl\cyrii\cyrv\
+    \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi}%
 }%
 % Цією командою позначаємо форму участі в конференції.
 % Тоді можна зробити так, щоб у вступі не писати, а в додатку -- писати.
@@ -1007,13 +964,12 @@
 %       то який підтягувати в додатку?
 \newcommand{\repeatauthorpublications}{%
   \def\bibname{% Список публікацій здобувача за темою дисертації
-    % {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk\
-    %   \cyrp\cyru\cyrb\cyrl\cyrii\cyrk\cyra\cyrc\cyrii\cyrishrt\
-    %   \cyrz\cyrd\cyro\cyrb\cyru\cyrv\cyra\cyrch\cyra\
-    %   \cyrz\cyra\
-    %   \cyrt\cyre\cyrm\cyro\cyryu\
-    %   \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi}}%
-    {Список публікацій здобувача за темою дисертації}}%
+    {\cyr\CYRS\cyrp\cyri\cyrs\cyro\cyrk\
+      \cyrp\cyru\cyrb\cyrl\cyrii\cyrk\cyra\cyrc\cyrii\cyrishrt\
+      \cyrz\cyrd\cyro\cyrb\cyru\cyrv\cyra\cyrch\cyra\
+      \cyrz\cyra\
+      \cyrt\cyre\cyrm\cyro\cyryu\
+      \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi}}%
   \let\thebibliography\reauthorpublications
   \let\endthebibliography\endreauthorpublications
   \let\@lbibitem\simple@lbibitem
@@ -1074,46 +1030,42 @@
 % Але не рекомендовано використовувати для англомовних документів
 % (коли english -- головна мова документа).
 \AtBeginDocument{%
-  \addto\captionsenglish{%
-    \def\manuscriptname{%
-      % FIXME: Qualification чи Qualifying?
-      Qualification scientific work in the form of manuscript%
-    }%
-    \def\set@thesisdescription{%
-      Thesis for \set@degree\ degree
-      in speciality \set@abstract@speciality
-    }%
-    \def\keywordsname{Key words}%
-  }
-  \addto\captionsukrainian{%
-    \def\manuscriptname{%
-      % Кваліфікаційна наукова праця на правах рукопису
-      % \CYRK\cyrv\cyra\cyrl\cyrii\cyrf\cyrii\cyrk\cyra\cyrc\cyrii\cyrishrt\cyrn\cyra\
-      % \cyrn\cyra\cyru\cyrk\cyro\cyrv\cyra\
-      % \cyrp\cyrr\cyra\cyrc\cyrya\
-      % \cyrn\cyra\
-      % \cyrp\cyrr\cyra\cyrv\cyra\cyrh\
-      % \cyrr\cyru\cyrk\cyro\cyrp\cyri\cyrs\cyru
-      Кваліфікаційна наукова праця на правах рукопиcу}%
-    \def\set@thesisdescription{%
-      % Дисертація на здобуття наукового ступеня
-      % кандидата педагогічних наук (доктора філософії)
-      % \CYRD\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyrya\
-      % \cyrn\cyra\
-      % \cyrz\cyrd\cyro\cyrb\cyru\cyrt\cyrt\cyrya\
-      % \cyrn\cyra\cyru\cyrk\cyro\cyrv\cyro\cyrg\cyro\
-      % \cyrs\cyrt\cyru\cyrp\cyre\cyrn\cyrya\
-      Дисертація на здобуття наукового ступеня
-      \set@degree\
-      % \cyrz\cyra\
-      % \cyrs\cyrp\cyre\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyrii\cyrs\cyrt\cyryu\
-      % за спеціальністю
-      за спеціальністю
-      \set@abstract@speciality
-    }%
-    % \def\keywordsname{\CYRK\cyrl\cyryu\cyrch\cyro\cyrv\cyrii\ \cyrs\cyrl\cyro\cyrv\cyra}%
-    \def\keywordsname{Ключові слова}%
-  }
+\addto\captionsenglish{%
+  \def\manuscriptname{%
+    % FIXME: Qualification чи Qualifying?
+    Qualification scientific work in the form of manuscript%
+  }%
+  \def\set@thesisdescription{%
+    Thesis for \set@degree\ degree
+    in speciality \set@abstract@speciality
+  }%
+  \def\keywordsname{Key words}%
+}
+\addto\captionsukrainian{%
+  \def\manuscriptname{%
+    % Кваліфікаційна наукова праця на правах рукопису
+    \CYRK\cyrv\cyra\cyrl\cyrii\cyrf\cyrii\cyrk\cyra\cyrc\cyrii\cyrishrt\cyrn\cyra\
+    \cyrn\cyra\cyru\cyrk\cyro\cyrv\cyra\
+    \cyrp\cyrr\cyra\cyrc\cyrya\
+    \cyrn\cyra\
+    \cyrp\cyrr\cyra\cyrv\cyra\cyrh\
+    \cyrr\cyru\cyrk\cyro\cyrp\cyri\cyrs\cyru
+  }%
+  \def\set@thesisdescription{%
+    % Дисертація на здобуття наукового ступеня
+    % кандидата педагогічних наук (доктора філософії)
+    \CYRD\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyrya\
+    \cyrn\cyra\
+    \cyrz\cyrd\cyro\cyrb\cyru\cyrt\cyrt\cyrya\
+    \cyrn\cyra\cyru\cyrk\cyro\cyrv\cyro\cyrg\cyro\
+    \cyrs\cyrt\cyru\cyrp\cyre\cyrn\cyrya\
+    \set@degree\
+    \cyrz\cyra\
+    \cyrs\cyrp\cyre\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyrii\cyrs\cyrt\cyryu\
+    \set@abstract@speciality
+  }%
+  \def\keywordsname{\CYRK\cyrl\cyryu\cyrch\cyro\cyrv\cyrii\ \cyrs\cyrl\cyro\cyrv\cyra}%
+}
 }
 %
 % Латка для babel-ukrainian

@@ -62,18 +62,36 @@
 \DeclareOptionX{final}{\@draftmodefalse\setlength\overfullrule{0pt}}
 \DeclareOptionX{titlepage}{\@titlepagetrue}
 \DeclareOptionX{notitlepage}{\@titlepagefalse}
-\DeclareOptionX{c}{\@cthesistrue
-  \def\degreename{\cyrk\cyra\cyrn\cyrd\cyri\cyrd\cyra\cyrt}%
-  \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
-    \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk}%
-  \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
-    \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk\cyri}}
-\DeclareOptionX{d}{\@cthesisfalse
-  \def\degreename{\cyrd\cyro\cyrk\cyrt\cyro\cyrr}%
-  \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
-    \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt}%
-  \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
-    \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt\cyri}}
+% \DeclareOptionX{c}{\@cthesistrue
+%   \def\degreename{\cyrk\cyra\cyrn\cyrd\cyri\cyrd\cyra\cyrt}%
+%   \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
+%     \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk}%
+%   \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
+%     \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk\cyri}}
+% \DeclareOptionX{d}{\@cthesisfalse
+%   \def\degreename{\cyrd\cyro\cyrk\cyrt\cyro\cyrr}%
+%   \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
+%     \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt}%
+%   \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
+%     \cyrk\cyro\cyrn\cyrs\cyru\cyrl\cyrsftsn\cyrt\cyra\cyrn\cyrt\cyri}}
+
+% Declare options for thesis type
+% --------------
+\DeclareOptionX{c}{%
+  \@cthesistrue
+  \def\degreename{Магістр}%
+  \def\onesupervisorname{Науковий керівник}%
+  \def\manysupervisorsname{Наукові керівники}%
+}
+
+\DeclareOptionX{d}{%
+  \@cthesisfalse
+  \def\degreename{Доктор}%
+  \def\onesupervisorname{Науковий керівник}%
+  \def\manysupervisorsname{Наукові керівники}%
+}
+% --------------
+
 \DeclareOptionX{guide}{%
   \IfFileExists{#1.clo}%
     {\AtEndOfClass{\input{#1.clo}}}%
@@ -118,7 +136,8 @@
   \def\draftname{Draft Version}%
   \AtBeginDocument{%
     \@ifpackageloaded{babel}{\addto\captionsukrainian{%
-    \def\draftname{{\cyr\CYRCH\cyre\cyrr\cyrn\cyre\cyrt\cyrk\cyra}}}%
+    % \def\draftname{{\cyr\CYRCH\cyre\cyrr\cyrn\cyre\cyrt\cyrk\cyra}}}%
+    \def\draftname{{Чернетка}}}%
     }{}%
   }
 \fi
@@ -166,14 +185,22 @@
   {Use command \protect#1 in your document.}}
 \newcommand{\placeholder}[1][100pt]{\rule{#1}{0.4pt}}
 %%\renewcommand{\title}[1]{\def\@title{#1}}
-\def\@title{<\CYRN\cyra\cyrz\cyrv\cyra\
-  \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi>%
+%----
+% \def\@title{<\CYRN\cyra\cyrz\cyrv\cyra\
+%   \cyrd\cyri\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyrii\cyryi>%
+%   \@nocmdgiven{\title}}
+\def\@title{<Назва дисертації>%
   \@nocmdgiven{\title}}
 %%\renewcommand{\author}[1]{\def\@author{#1}}
-\def\@author{<\CYRP\cyrr\cyrii\cyrz\cyrv\cyri\cyrshch\cyre{}
-  \CYRII\cyrm'\cyrya\
-  \CYRP\cyro\ \cyrb\cyra\cyrt\cyrsftsn\cyrk\cyro\cyrv\cyrii>%
+%---- 
+% \def\@author{<\CYRP\cyrr\cyrii\cyrz\cyrv\cyri\cyrshch\cyre{}
+%   \CYRII\cyrm'\cyrya\
+%   \CYRP\cyro\ \cyrb\cyra\cyrt\cyrsftsn\cyrk\cyro\cyrv\cyrii>%
+%   \@nocmdgiven{\author}}
+
+\def\@author{<Прізвище Ім'я По-батькові>%
   \@nocmdgiven{\author}}
+
 \newcounter{@supervisors@count}
 \newcommand{\supervisor}[3]{%
   \stepcounter{@supervisors@count}%
@@ -183,20 +210,30 @@
     \g@addto@macro\@supervisors{\\{#1}{#2}{#3}}%
   \fi}
 \if@cthesis
+  %----
+  % \def\@supervisors{\@nocmdgiven{\supervisor}%
+  %   \\{<\CYRP\cyrr\cyrii\cyrz\cyrv\cyri\cyrshch\cyre\
+  %      \CYRII\cyrm'\cyrya\ \CYRP\cyro\ \cyrb\cyra\cyrt\cyrsftsn\cyrk\cyro\cyrv\cyrii>}%
+  %     {<\cyrn\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\ \cyrs\cyrt\cyru\cyrp\cyrii\cyrn\cyrsftsn,
+  %      \cyrv\cyrch\cyre\cyrn\cyre\ \cyrz\cyrv\cyra\cyrn\cyrn\cyrya>}%
+  %     {<\cyrm\cyrii\cyrs\cyrc\cyre\ \cyrr\cyro\cyrb\cyro\cyrt\cyri, \cyrp\cyro\cyrs\cyra\cyrd\cyra>}%
+  % }%
   \def\@supervisors{\@nocmdgiven{\supervisor}%
-    \\{<\CYRP\cyrr\cyrii\cyrz\cyrv\cyri\cyrshch\cyre\
-       \CYRII\cyrm'\cyrya\ \CYRP\cyro\ \cyrb\cyra\cyrt\cyrsftsn\cyrk\cyro\cyrv\cyrii>}%
-      {<\cyrn\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\ \cyrs\cyrt\cyru\cyrp\cyrii\cyrn\cyrsftsn,
-       \cyrv\cyrch\cyre\cyrn\cyre\ \cyrz\cyrv\cyra\cyrn\cyrn\cyrya>}%
-      {<\cyrm\cyrii\cyrs\cyrc\cyre\ \cyrr\cyro\cyrb\cyro\cyrt\cyri, \cyrp\cyro\cyrs\cyra\cyrd\cyra>}%
+    \\{<Прізвище Ім'я По-батькові>}%
+    {<наукове звання, вчене звання>}%
+    {<місце роботи, посада>}%
   }%
 \else
   \let\@supervisors\@empty
 \fi
-\def\oneopponentname{\CYRO\cyrf\cyrii\cyrc\cyrii\cyrishrt\cyrn\cyri\cyrishrt\
-  \cyro\cyrp\cyro\cyrn\cyre\cyrn\cyrt}
-\def\manyopponentsname{\CYRO\cyrf\cyrii\cyrc\cyrii\cyrishrt\cyrn\cyrii\
-  \cyro\cyrp\cyro\cyrn\cyre\cyrn\cyrt\cyri}
+% ----
+% \def\oneopponentname{\CYRO\cyrf\cyrii\cyrc\cyrii\cyrishrt\cyrn\cyri\cyrishrt\
+%   \cyro\cyrp\cyro\cyrn\cyre\cyrn\cyrt}
+% \def\manyopponentsname{\CYRO\cyrf\cyrii\cyrc\cyrii\cyrishrt\cyrn\cyrii\
+%   \cyro\cyrp\cyro\cyrn\cyre\cyrn\cyrt\cyri}
+\def\oneopponentname{Офіційний опонент}
+\def\manyopponentsname{Офіційні опоненти}
+
 \newcounter{@opponents@count}
 \newcommand{\opponent}[3]{%
   \stepcounter{@opponents@count}%
@@ -205,13 +242,18 @@
   \else
     \g@addto@macro\@opponents{\\{#1}{#2}{#3}}%
   \fi}
+% ----
+% \def\@opponents{\@nocmdgiven{\opponent}%
+%   \\{<\CYRP\cyrr\cyrii\cyrz\cyrv\cyri\cyrshch\cyre\
+%      \CYRII\cyrm'\cyrya\ \CYRP\cyro\ \cyrb\cyra\cyrt\cyrsftsn\cyrk\cyro\cyrv\cyrii>}%
+%     {<\cyrn\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\ \cyrs\cyrt\cyru\cyrp\cyrii\cyrn\cyrsftsn,
+%      \cyrv\cyrch\cyre\cyrn\cyre\ \cyrz\cyrv\cyra\cyrn\cyrn\cyrya>}%
+%     {<\cyrm\cyrii\cyrs\cyrc\cyre\ \cyrr\cyro\cyrb\cyro\cyrt\cyri,
+%      \cyrp\cyro\cyrs\cyra\cyrd\cyra>}}
 \def\@opponents{\@nocmdgiven{\opponent}%
-  \\{<\CYRP\cyrr\cyrii\cyrz\cyrv\cyri\cyrshch\cyre\
-     \CYRII\cyrm'\cyrya\ \CYRP\cyro\ \cyrb\cyra\cyrt\cyrsftsn\cyrk\cyro\cyrv\cyrii>}%
-    {<\cyrn\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\ \cyrs\cyrt\cyru\cyrp\cyrii\cyrn\cyrsftsn,
-     \cyrv\cyrch\cyre\cyrn\cyre\ \cyrz\cyrv\cyra\cyrn\cyrn\cyrya>}%
-    {<\cyrm\cyrii\cyrs\cyrc\cyre\ \cyrr\cyro\cyrb\cyro\cyrt\cyri,
-     \cyrp\cyro\cyrs\cyra\cyrd\cyra>}}
+    \\{Прізвище Ім'я По-батькові}%
+    {наукове звання, вчене звання}%
+    {місце роботи, посада}}%
 \def\specialityfilename{speciality.20070212N70}
 \def\speciality{\@ifnextchar[\n@speciality\n@specialitya}
 \def\n@speciality[#1]{%
@@ -240,18 +282,26 @@
 \def\@find@speciality{%
   \findinfile{\specialityfilename}{\@specialitycode}%
   \ifthenelse{\equal{\@found}{}}
-  {\def\@found{<\cyrn\cyra\cyrishrt\cyrm\cyre\cyrn\cyru\cyrv\cyra\cyrn\cyrn\cyrya\
-     \cyrs\cyrp\cyre\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyro\cyrs\cyrt\cyrii>%
+  {
+  % ----
+  % \def\@found{<\cyrn\cyra\cyrishrt\cyrm\cyre\cyrn\cyru\cyrv\cyra\cyrn\cyrn\cyrya\
+  %    \cyrs\cyrp\cyre\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyro\cyrs\cyrt\cyrii>%
+     \def\@found{<найменування спеціальності>%
+
      \ClassError{\@classname}{Unknown speciality code (speciality name)}
      {I can not determinate speciality name.\MessageBreak
       Command \protect\speciality\space has two optional arguments. Use them please.}/%
-     <\cyrg\cyra\cyrl\cyru\cyrz\cyrsftsn\ \cyrn\cyra\cyru\cyrk>%
+     %----
+      % <\cyrg\cyra\cyrl\cyru\cyrz\cyrsftsn\ \cyrn\cyra\cyru\cyrk>%
+      <галузь наук>%
      \ClassError{\@classname}{Unknown speciality code (science)}
      {I can not determinate science.\MessageBreak
       Command \protect\speciality\space has two optional arguments. Use them please.}}}
   {\relax}}
-\def\@specialitycode{<\cyrsh\cyri\cyrf\cyrr\
-  \cyrs\cyrp\cyre\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyro\cyrs\cyrt\cyrii>%
+% ----
+% \def\@specialitycode{<\cyrsh\cyri\cyrf\cyrr\
+%   \cyrs\cyrp\cyre\cyrc\cyrii\cyra\cyrl\cyrsftsn\cyrn\cyro\cyrs\cyrt\cyrii>%
+\def\@specialitycode{<шифр спеціальності>%
   \@nocmdgiven{\speciality}}
 \def\@specialityname{%
   <\cyrn\cyra\cyrishrt\cyrm\cyre\cyrn\cyru\cyrv\cyra\cyrn\cyrn\cyrya\

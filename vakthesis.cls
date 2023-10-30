@@ -67,11 +67,15 @@
 \DeclareOptionX{1space}{\@wordlikespacingfalse}
 \DeclareOptionX{1.5space}{\@wordlikespacingtrue}
 \DeclareOptionX{c}{\@cthesistrue
-  \def\degreename{\cyrk\cyra\cyrn\cyrd\cyri\cyrd\cyra\cyrt}%
-  \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
-    \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk}%
-  \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
-    \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk\cyri}}
+  % \def\degreename{\cyrk\cyra\cyrn\cyrd\cyri\cyrd\cyra\cyrt}%
+  \def\degreename{кандидат}%
+  % \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
+  %   \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk}%
+  \def\onesupervisorname{Науковий керівник}%
+  % \def\manysupervisorsname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyrii\
+  %   \cyrk\cyre\cyrr\cyrii\cyrv\cyrn\cyri\cyrk\cyri}%
+  \def\manysupervisorsname{Наукові керівники}%
+}
 \DeclareOptionX{d}{\@cthesisfalse
   \def\degreename{\cyrd\cyro\cyrk\cyrt\cyro\cyrr}%
   \def\onesupervisorname{\CYRN\cyra\cyru\cyrk\cyro\cyrv\cyri\cyrishrt\
@@ -766,17 +770,31 @@
   \setcounter{chapter}{0}%
   \setcounter{section}{0}%
   \gdef\@chapapp{\appendixname}%
-  \gdef\thechapter{\@lost@Asbuk\c@chapter}%
+  % \gdef\thechapter{\@lost@Asbuk\c@chapter}%
+  \gdef\thechapter{\CyrillicLabel{\c@chapter}}%
   \let\@make@chapapp\relax
   \immediate\write\@auxout{\string\@toc@appendices{\thepage}}%
 }
-\def\@lost@Asbuk#1{\ifcase#1\or
-  \CYRA\or\CYRB\or\CYRV\or\CYRG\or\CYRD\or\CYRE\or%\CYRIE\or
-  \CYRZH\or\CYRZ\or\CYRI\or%\CYRII\or\CYRYI\or\CYRISHRT\or
-  \CYRK\or\CYRL\or\CYRM\or\CYRN\or%\CYRO\or
-  \CYRP\or\CYRR\or
-  \CYRS\or\CYRT\or\CYRU\or\CYRF\or\CYRH\or\CYRC\or%\CYRCH\or
-  \CYRSH\or\CYRSHCH\or\CYRYU\or\CYRYA\else\@ctrerr\fi}
+% \def\@lost@Asbuk#1{\ifcase#1\or
+%   \CYRA\or\CYRB\or\CYRV\or\CYRG\or\CYRD\or\CYRE\or%\CYRIE\or
+%   \CYRZH\or\CYRZ\or\CYRI\or%\CYRII\or\CYRYI\or\CYRISHRT\or
+%   \CYRK\or\CYRL\or\CYRM\or\CYRN\or%\CYRO\or
+%   \CYRP\or\CYRR\or
+%   \CYRS\or\CYRT\or\CYRU\or\CYRF\or\CYRH\or\CYRC\or%\CYRCH\or
+%   \CYRSH\or\CYRSHCH\or\CYRYU\or\CYRYA\else\@ctrerr\fi}
+% Define a command to convert a number to the corresponding uppercase Cyrillic letter
+
+\newcommand{\CyrillicLabel}[1]{%
+  \ifcase#1\or
+    А\or Б\or В\or Г\or Д\or Е\or % ИЕ\or
+    Ж\or З\or И\or % ИИ\or І\or Ї\or
+    К\or Л\or М\or Н\or % О\or
+    П\or Р\or
+    С\or Т\or У\or Ф\or Г\or Ц\or % Ч\or
+    Ш\or Щ\or Ю\or Я\else\@ctrerr
+  \fi
+}
+
 \def\@toc@appendices#1{\@writefile{toc}{%
   \def\@chapapp{\appendixname}^^J%
   \def\@appendix@number@width{.5em}}}
@@ -1157,7 +1175,8 @@
   \space\number\day, \number\year}
 \AtBeginDocument{%
 \@ifpackageloaded{babel}{\addto\captionsukrainian{%
-  \def\tablename{{\cyr\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyrya}}}}{}
+  % \def\tablename{{\cyr\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyrya}}}}{}
+  \def\tablename{{Таблиця}}}}{}
 }
 \setlength\columnsep{10\p@}
 \setlength\columnseprule{0\p@}

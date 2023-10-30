@@ -23,6 +23,9 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesPackage{casus}
   [2004/02/20 v0.01 Casus (OMB)]
+
+\usepackage{enumitem}
+
 %% Створити список правил відмінювання
 \def\declinenoun{}
 \def\declineadjective{}
@@ -154,6 +157,19 @@
 \item[М.] \case[#1]{L}{#2}
 \ifthenelse{\equal{#1}{noun}}{\item[Кл.] \case[#1]{V}{#2}}{}
 \end{list}}
+
+% \newcommand{\paradigm}[2][noun]{%
+%   \begin{itemize}[label=--, itemsep=0pt, parsep=0pt]
+%     \item[Н.] \case[#1]{N}{#2}
+%     \item[Р.] \case[#1]{G}{#2}
+%     \item[Д.] \case[#1]{D}{#2}
+%     \item[З.] \case[#1]{A}{#2}
+%     \item[О.] \case[#1]{I}{#2}
+%     \item[М.] \case[#1]{L}{#2}
+%     \ifthenelse{\equal{#1}{noun}}{\item[Кл.] \case[#1]{V}{#2}}{}
+%   \end{itemize}
+% }
+
 %% Перетворити речення #2 до відмінка #1
 \newcommand{\transformsentence}[2]{%
   \def\@case{#1}%
